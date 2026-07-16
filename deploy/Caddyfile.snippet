@@ -1,6 +1,12 @@
+# BEGIN hae-portfolio
 haorui-wang-rae-portfolio.com, www.haorui-wang-rae-portfolio.com {
 	encode gzip
 	root * /var/www/hae-portfolio
 	try_files {path} /index.html
 	file_server
+	@assets path /assets/*
+	header @assets Cache-Control "public, max-age=31536000, immutable"
+	header /index.html Cache-Control "no-cache, no-store, must-revalidate"
+	header / Cache-Control "no-cache, no-store, must-revalidate"
 }
+# END hae-portfolio
