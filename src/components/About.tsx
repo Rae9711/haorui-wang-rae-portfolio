@@ -13,15 +13,12 @@ export function About() {
       <div className="mx-auto max-w-6xl px-6 py-24 md:px-10 md:py-32">
         <div className="grid gap-14 lg:grid-cols-[0.85fr_1.15fr] lg:gap-20">
           <FadeIn>
-            <p className="mb-6 font-mono text-xs tracking-[0.16em] text-accent uppercase">
+            <p
+              id="about-heading"
+              className="mb-6 font-mono text-xs tracking-[0.16em] text-accent uppercase"
+            >
               {about.kicker}
             </p>
-            <h2
-              id="about-heading"
-              className="text-[clamp(2rem,4.5vw,3rem)] font-semibold leading-[1.1] tracking-[-0.03em] text-ink"
-            >
-              {about.heading}
-            </h2>
             <aside className="mt-10 hidden lg:block">
               <p className="font-mono text-xs tracking-[0.14em] text-faint uppercase">
                 {about.aside.label}

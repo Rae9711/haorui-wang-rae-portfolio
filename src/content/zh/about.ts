@@ -1,6 +1,5 @@
 export const aboutZh = {
   kicker: "关于",
-  heading: "王颢睿 · Haorui (Rae) Wang",
 
   paragraphs: [
     "我是就读于密歇根大学安娜堡分校（本科2027 届），主修双专业数据科学与统计学。高中毕业于美国北卡罗来纳州Forsyth County High School。",
@@ -9,16 +8,16 @@ export const aboutZh = {
 
     "我相信 AI 的价值不在于生成更多答案，而在于帮助人们做出更好的决策。我喜欢构建能够理解上下文、整理复杂信息，并在真实约束下采取行动的智能系统。",
 
-    "目前我正在打造 Alfred——一款移动优先的 AI Chief of Staff。它能够从邮件、日历与日常对话中识别承诺，整理真正重要的事项，起草回复，并在用户批准后安全地执行操作。我希望它不仅能回答问题，更能帮助人们筛选重要信息、完成工作。",
+    "目前我正在打造 Alfred——一款移动优先的 AI 管家。它能够从邮件、日历与日常对话中识别承诺，整理真正重要的事项，起草回复，并在用户批准后安全地执行操作。我希望它不仅能回答问题，更能帮助人们筛选重要信息、完成工作。",
   ],
 
   aside: {
     label: "At a glance",
     items: [
-      "王颢睿（Haorui （Rae） Wang）",
-      "Data Science & Statistics @ University of Michigan · 2027",
-      "Forsyth County High School · North Carolina · 2023",
-      "Previously: Clinical AI · Healthcare ML · Decision systems",
+      "王颢睿）",
+      "数据科学与统计学 · 密歇根大学 · 2027",
+      "Forsyth County High School · 北卡罗来纳州 · 2023",
+      "临床 AI · 医疗机器学习 · 商业决策系统",
       "Ann Arbor, MI · Whruiray@umich.edu",
     ],
   },

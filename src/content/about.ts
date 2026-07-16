@@ -5,7 +5,6 @@
 
 export const about = {
   kicker: "About",
-  heading: "Haorui (Rae) Wang",
   paragraphs: [
     "I'm a Data Science and Statistics undergraduate student at the University of Michigan (Class of 2027). I graduated from Forsyth County High School in North Carolina.",
     "Previously I built clinical LLM pipelines for survival modeling at the University of Michigan, healthcare ML with Trinity Health, and pricing decision systems at Haier. That path taught me the same lesson: reliability is an engineering surface — generate, check, repair — not a prompt afterthought.",
