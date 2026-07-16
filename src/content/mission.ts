@@ -5,25 +5,39 @@
 
 export const mission = {
   kicker: "Focus",
-  statement: "Building AI systems that can reason, prioritize, and act.",
+
+  statement:
+    "Building AI systems that can reason, prioritize, and act.",
+
   supporting:
-    "I'm interested in building AI systems that don't just generate answers—they understand context, organize complexity, and help people make better decisions.",
+    "From healthcare to personal productivity and financial markets, I build AI systems that transform messy information into decisions people can trust.",
+
   current: {
-    label: "Current",
+    label: "Currently Building",
+
     title: "Alfred",
-    tagline: "Turning conversations into commitments, and commitments into action.",
-    body: "A mobile-first AI Chief of Staff that reads your inbox, understands what you've promised, prioritizes what matters today, drafts responses, and safely executes approved actions through an auditable permission system.",
+
+    tagline:
+      "Turning conversations into commitments, and commitments into action.",
+
+    body:
+      "An AI Chief of Staff that transforms emails, calendars, and conversations into daily priorities, drafted responses, and safely approved actions through an auditable execution system.",
   },
+
   where: {
     label: "Where",
-    detail: "Data Science & Statistics · University of Michigan · Class of 2027",
+
+    detail:
+      "Data Science & Statistics · University of Michigan · 2027",
   },
+
   previously: {
-    label: "Previously",
+    label: "Experience Across",
+
     items: [
-      "Clinical LLM pipelines for survival modeling",
-      "Healthcare ML at Trinity Health",
-      "Multi-agent decision systems",
+      "Clinical AI for survival prediction",
+      "Healthcare decision intelligence",
+      "Multi-agent market research",
     ],
   },
 } as const;

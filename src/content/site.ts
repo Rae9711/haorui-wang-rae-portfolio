@@ -32,9 +32,9 @@ export const site = {
     identity: "Building Alfred · AI products that reason and act",
     /** Short human supporting sentence */
     lede:
-      "I design AI systems that don't just generate answers — they understand context, organize complexity, and help people make better decisions. Previously: clinical AI and healthcare ML.",
+      "I design AI systems that don't just generate answers — they understand context, organize complexity, and help people make better decisions.",
     /** Systems thesis — secondary to who I am */
-    thesis: "AI products · Agentic systems · LLMs · Decision intelligence",
+    thesis: "AI products · Agentic systems · LLMs · Decision intelligence · Data Science & Statistics",
     ctaWork: "See my work",
     ctaResume: "Resume",
     ctaContact: "Contact",
@@ -44,7 +44,7 @@ export const site = {
     kicker: "Contact",
     heading: "Let's talk",
     lede:
-      "I'm looking for AI product, research, ML / LLM, and agentic engineering roles. Based in Ann Arbor — happy to chat about Alfred or related work.",
+      "I'm looking for internship, research, full-time, ML / LLM / AI product, and agentic engineering roles.",
     email: "Whruiray@umich.edu",
     location: "Ann Arbor, MI · University of Michigan",
   },
