@@ -29,19 +29,10 @@ export function Hero() {
       </motion.h1>
 
       <motion.p
-        className="mt-5 max-w-2xl text-base font-medium tracking-tight text-ink md:mt-6 md:text-lg"
-        initial={reduce ? false : { opacity: 0, y: 14 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.7, delay: 0.14, ease }}
-      >
-        {site.hero.identity}
-      </motion.p>
-
-      <motion.p
         className="mt-6 max-w-xl text-lg leading-relaxed text-muted md:mt-8 md:text-xl"
         initial={reduce ? false : { opacity: 0, y: 16 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.75, delay: 0.24, ease }}
+        transition={{ duration: 0.75, delay: 0.14, ease }}
       >
         {site.hero.lede}
       </motion.p>

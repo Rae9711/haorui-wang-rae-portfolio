@@ -60,11 +60,11 @@ export const projects: Project[] = [
       lessons:
         "The hardest part of agentic AI is not generation. It is designing the boundary between what a model may understand, what it may propose, and what the system is allowed to execute.",
       stack: [
-          "Mobile App",
-          "Gmail & Calendar",
-          "LLM Extraction",
-          "Priority Ranking",
-          "Human Approval",
+          "Mobile App · iOS",
+          "Gmail & Calendar · OAuth",
+          "LLM Extraction · Anthropic API",
+          "Priority Ranking · ",
+          "Human Approval · ",
           "Audit Logs",
       ],
       metrics: [
@@ -83,7 +83,7 @@ export const projects: Project[] = [
       subtitle:
         "Helping people discover what actually works for their own body.",
       attribution: "Co-built the product, analytics, and AI insight experience",
-      org: "Team Product",
+      org: "Team Product follow up with myself",
       period: "2026",
       problem:
         "Most fitness products prescribe generic advice or optimize calorie counts. We prioritze personalization and help users understand how timing, stress, consistency, meals, and exercise affect their own energy and mood.",
@@ -96,11 +96,11 @@ export const projects: Project[] = [
       lessons:
         "Personalization should begin with the user's own baseline. Useful AI should explain why an insight appeared, not just produce another recommendation.",
       stack: [
-          "Natural-language Logging",
-          "Personal Baselines",
-          "Behavior Analysis",
-          "Trend Visualization",
-          "AI-generated Insights",
+          "Natural-language Logging · ",
+          "Personal Baselines · ",
+          "Behavior Analysis · ",
+          "Trend Visualization   · ",
+          "AI-generated Insights ·  ",
           "Goal Tracking",
       ],
       metrics: [
@@ -132,12 +132,12 @@ export const projects: Project[] = [
       lessons:
         "A useful financial agent should not pretend to predict the market. It should structure uncertainty, expose assumptions, and make every recommendation reviewable after the outcome is known.",
       stack: [
-          "Market Data",
-          "News Analysis",
-          "Research Agents",
-          "Decision Framework",
-          "Morning Brief",
-          "Outcome Review",
+          "Market Data · ",
+          "News Analysis · ",
+          "Research Agents · ",
+          "Decision Framework · ",
+          "Morning Brief · ",
+          "Outcome Review ",
       ],
       metrics: [
           { value: "Morning → Evening", label: "Research feedback loop" },

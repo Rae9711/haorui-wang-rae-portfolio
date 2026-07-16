@@ -5,7 +5,7 @@
 
 export const site = {
   /** Short mark in the header — personal initials */
-  mark: "HRW",
+  mark: "HW",
 
   /** Full name shown in hero & footer */
   name: "Haorui Wang",
@@ -28,8 +28,6 @@ export const site = {
   resumeLabel: "Resume",
 
   hero: {
-    /** Identity line under the name */
-    identity: "Building Alfred · AI products that reason and act",
     /** Short human supporting sentence */
     lede:
       "I design AI systems that don't just generate answers — they understand context, organize complexity, and help people make better decisions.",
