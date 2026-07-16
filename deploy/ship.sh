@@ -83,6 +83,8 @@ $MARKER_END
 EOF
 
 caddy validate --config "$CADDY"
+chown root:caddy "$CADDY" 2>/dev/null || true
+chmod 644 "$CADDY"
 systemctl reload caddy
 echo "Caddy reloaded with no-cache HTML headers."
 REMOTE
