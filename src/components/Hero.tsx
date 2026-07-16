@@ -20,14 +20,23 @@ export function Hero() {
         {site.hero.kicker}
       </motion.p>
 
-      <motion.h1
-        className="whitespace-nowrap text-[clamp(1.15rem,5.2vw,4.25rem)] font-semibold leading-[1.05] tracking-[-0.04em] text-ink"
+      <motion.div
+        className="flex items-center gap-3 md:gap-4"
         initial={reduce ? false : { opacity: 0, y: 24 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.85, delay: 0.04, ease }}
       >
-        {site.nameFull}
-      </motion.h1>
+        <h1 className="min-w-0 whitespace-nowrap text-[clamp(1rem,4.4vw,3.35rem)] font-semibold leading-[1.05] tracking-[-0.04em] text-ink">
+          {site.nameFull}
+        </h1>
+        <img
+          src={site.portraitHref}
+          alt={site.nameFull}
+          width={64}
+          height={64}
+          className="h-11 w-11 shrink-0 rounded-full object-cover object-[center_20%] ring-1 ring-line md:h-14 md:w-14"
+        />
+      </motion.div>
 
       <motion.p
         className="mt-6 max-w-xl text-lg leading-relaxed text-muted md:mt-8 md:text-xl"

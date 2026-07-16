@@ -27,6 +27,9 @@ export const site = {
   resumeHref: "/Haorui_Wang_Resume_DS.pdf",
   resumeLabel: "Resume",
 
+  /** Portrait shown beside the hero name */
+  portraitHref: "/portrait.jpg",
+
   hero: {
     kicker: "Portfolio",
     /** Short human supporting sentence */

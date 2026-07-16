@@ -20,6 +20,8 @@ export const siteZh = {
   resumeHref: "/Haorui_Wang_Resume_DS.pdf",
   resumeLabel: "查看简历",
 
+  portraitHref: "/portrait.jpg",
+
   hero: {
     kicker: "AI Builder",
 

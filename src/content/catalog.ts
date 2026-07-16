@@ -1,11 +1,13 @@
 import { about } from "./about";
 import { featuredSystem } from "./featuredSystem";
+import { learning } from "./learning";
 import { mission } from "./mission";
 import { projects, projectsSection } from "./projects";
 import { research } from "./research";
 import { site } from "./site";
 import { aboutZh } from "./zh/about";
 import { featuredSystemZh } from "./zh/featuredSystem";
+import { learningZh } from "./zh/learning";
 import { missionZh } from "./zh/mission";
 import { projectsSectionZh, projectsZh } from "./zh/projects";
 import { researchZh } from "./zh/research";
@@ -19,6 +21,7 @@ export type ContentBundle = {
   projects: typeof projects | typeof projectsZh;
   projectsSection: typeof projectsSection | typeof projectsSectionZh;
   research: typeof research | typeof researchZh;
+  learning: typeof learning | typeof learningZh;
   about: typeof about | typeof aboutZh;
 };
 
@@ -30,6 +33,7 @@ const catalogs: Record<Locale, ContentBundle> = {
     projects,
     projectsSection,
     research,
+    learning,
     about,
   },
   zh: {
@@ -39,6 +43,7 @@ const catalogs: Record<Locale, ContentBundle> = {
     projects: projectsZh,
     projectsSection: projectsSectionZh,
     research: researchZh,
+    learning: learningZh,
     about: aboutZh,
   },
 };

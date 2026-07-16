@@ -9,6 +9,8 @@ export { projects, projectsSection } from "./projects";
 export type { Project, ProjectMetric } from "./projects";
 export { research } from "./research";
 export type { Research, TimelineItem } from "./research";
+export { learning } from "./learning";
+export type { Learning, LearningGroup, LearningItem } from "./learning";
 export { about } from "./about";
 export type { About } from "./about";
 export { useContent } from "./useContent";

@@ -5,6 +5,7 @@ import { FeaturedSystem } from "./components/FeaturedSystem";
 import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
+import { Learning } from "./components/Learning";
 import { Mission } from "./components/Mission";
 import { Projects } from "./components/Projects";
 import { ResearchTimeline } from "./components/ResearchTimeline";
@@ -31,6 +32,7 @@ function App() {
         <Projects />
         <FeaturedSystem />
         <ResearchTimeline />
+        <Learning />
         <About />
         <Contact />
       </main>
