@@ -2,44 +2,51 @@ import type { TimelineItem } from "../research";
 
 export const researchZh = {
   kicker: "走向决策智能",
-  heading: "我走过的路",
-  lede: "从商业决策系统，到临床决策智能，再到个人决策——贯穿始终的问题是：如何让智能可靠到足以行动？",
+
+  heading: "我如何走到这里",
+
+  lede:
+    "从商业分析、医疗机器学习到临床 LLM 与个人智能体，我持续探索同一个问题：如何把复杂信息转化为可靠、可解释且值得行动的决策？",
+
   items: [
     {
-      id: "2024-Business Decision",
+      id: "2024-business-decisions",
       period: "2024",
-      title: "商业数据中的决策系统",
-      context: "海尔全球业务 · 实习",
+      title: "从数据分析到商业决策",
+      context: "海尔全球业务 · 数据分析实习",
       detail:
-        "第一次把原始业务数据闭环成产品经理可执行的决策。分析超过 50 万条亚马逊交易，识别定价机会，并构建自动化分析，帮助产品团队更快做出定价决策。",
-      tags: ["决策智能", "分析系统"],
+        "分析超过 50 万条亚马逊销售记录，寻找定价与增长机会，并将重复分析自动化。这是我第一次意识到：数据本身不是最终产品，真正的价值在于帮助团队更快做出决策。",
+      tags: ["商业分析", "定价决策", "数据自动化"],
     },
+
     {
-      id: "2025-Medical Decision",
+      id: "2025-healthcare-decisions",
       period: "2025",
-      title: "生产流程中的医疗机器学习",
-      context: "密歇根大学 × Trinity Health · 我构建模型与工作流",
+      title: "让机器学习进入真实工作流",
+      context: "密歇根大学 × Trinity Health",
       detail:
-        "在超过 20 万条临床计费记录上构建 NLP 流水线与机器学习模型，通过生产决策工作流帮助审计员更快发现编码错误。",
-      tags: ["医疗 AI", "NLP", "生产 ML"],
+        "基于 20 万余条医疗账单和临床文本构建 NLP 与分类流程，帮助审计人员优先检查高风险记录。我开始关注的不再只是模型表现，而是预测如何进入人的工作流程。",
+      tags: ["医疗 AI", "NLP", "Operational ML"],
     },
+
     {
-      id: "2026-Clinical Decision",
+      id: "2026-clinical-intelligence",
       period: "2026",
-      title: "临床 LLM 系统与生存学习",
-      context: "密歇根大学 · 科研",
+      title: "为临床 LLM 构建可靠性",
+      context: "密歇根大学 · 临床 AI 研究",
       detail:
-        "设计「生成—校验—修复」流水线，将放射报告转化为结构化患者时间线用于生存建模，把可靠性内建进系统，而不是事后补丁。",
-      tags: ["大语言模型", "临床 NLP", "生存模型"],
+        "设计「生成—校验—修复」流程，将非结构化放射报告转化为可用于生存分析的患者时间线。这个项目让我进一步理解：当 AI 输出会进入下游模型时，可靠性必须是系统结构，而不是提示词补丁。",
+      tags: ["Clinical LLM", "可靠性", "生存建模"],
     },
+
     {
-      id: "2026-Personal Decision",
+      id: "2026-personal-execution",
       period: "现在",
-      title: "Alfred — AI 幕僚长",
-      context: "我正在设计与构建的产品",
+      title: "从辅助决策走向安全执行",
+      context: "Alfred · AI Chief of Staff",
       detail:
-        "构建移动优先的 AI 幕僚长：把邮件、日历与对话转化为承诺、优先级、草稿，以及安全、可审计的动作。",
-      tags: ["AI 产品", "智能体系统", "决策引擎"],
+        "正在构建一款移动优先的 AI 幕僚长，将邮件、日历与对话中的信息转化为承诺、每日优先级和回复草稿，并通过人工审批、风险分级与审计记录安全执行操作。",
+      tags: ["Agentic AI", "AI 产品", "安全执行"],
     },
   ] as const satisfies readonly TimelineItem[],
 } as const;

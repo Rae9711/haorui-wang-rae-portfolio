@@ -6,37 +6,45 @@ export const siteZh = {
   mark: "王颢睿",
 
   name: "王颢睿",
-  nameFull: "王颢睿",
+  nameFull: "王颢睿 · Haorui (Rae) Wang",
 
-  documentTitle: "王颢睿 — 作品集",
+  documentTitle: "王颢睿 · AI Builder",
 
   nav: [
     { label: "作品", href: "#work" },
+    { label: "成长路径", href: "#research" },
     { label: "关于", href: "#about" },
     { label: "联系", href: "#contact" },
   ],
 
   resumeHref: "/Haorui_Wang_Resume_DS.pdf",
-  resumeLabel: "简历",
+  resumeLabel: "查看简历",
 
   hero: {
-    kicker: "作品集",
+    kicker: "AI Builder",
+
     lede:
-      "我设计的 AI 系统不只生成答案——它们理解上下文、整理复杂信息，并帮助人们做出更好的决策。",
+      "构建能够理解上下文、组织复杂信息，并帮助人们完成工作的 AI 系统。",
+
     thesis:
-      "AI 产品 · 智能体系统 · 大语言模型 · 决策智能 · 数据科学与统计学",
+      "我关注 Agentic AI、Decision Intelligence 与 LLM Systems，希望让 AI 不只是回答问题，而是真正帮助人们思考、决策与行动。",
+
     ctaWork: "查看作品",
-    ctaResume: "简历",
+    ctaResume: "查看简历",
     ctaContact: "联系我",
   },
 
   contact: {
     kicker: "联系",
-    heading: "聊聊吧",
+
+    heading: "一起构建真正有用的 AI",
+
     lede:
-      "我正在寻找实习、科研、全职，以及机器学习 / 大语言模型 / AI 产品与智能体工程相关机会。",
+      "目前正在寻找 AI / Machine Learning、LLM、Agentic AI、AI Product 以及 Research Engineer 相关的实习与全职机会。",
+
     email: "Whruiray@umich.edu",
-    location: "密歇根州安娜堡 · 密歇根大学",
+
+    location: "University of Michigan · Ann Arbor",
   },
 
   links: {
@@ -44,6 +52,7 @@ export const siteZh = {
       href: "https://github.com/Rae9711",
       label: "GitHub",
     },
+
     linkedin: {
       href: "https://linkedin.com/in/haorui-wang-21b052346",
       label: "LinkedIn",
@@ -51,7 +60,8 @@ export const siteZh = {
   },
 
   footer: {
-    tagline: "个人作品集 · 密歇根大学",
+    tagline:
+      "Building AI systems that turn information into decisions.",
   },
 
   a11y: {
