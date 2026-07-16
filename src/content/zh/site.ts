@@ -26,10 +26,10 @@ export const siteZh = {
     kicker: "AI Builder",
 
     lede:
-      "构建能够理解上下文、组织复杂信息，并帮助人们完成工作的 AI 系统。",
+      "我希望AI 系统并不是代替人类思考，而是将复杂的信息变成可理解、可行动的决策。",
 
     thesis:
-      "我关注 Agentic AI、Decision Intelligence 与 LLM Systems，希望让 AI 不只是回答问题，而是真正帮助人们思考、决策与行动。",
+      "我关注 Agentic AI、Decision Intelligence 与 LLM Systems，希望让 AI理解上下文，真正帮助人们思考、决策与行动。",
 
     ctaWork: "查看作品",
     ctaResume: "查看简历",
@@ -39,10 +39,10 @@ export const siteZh = {
   contact: {
     kicker: "联系",
 
-    heading: "一起构建真正有用的 AI",
+    heading: "一起构建你的AI帮手",
 
     lede:
-      "目前正在寻找 AI / Machine Learning、LLM、Agentic AI、AI Product 以及 Research Engineer 相关的实习与全职机会。",
+      "目前正在寻找 AI / Machine Learning、LLM、Agentic AI、AI Product 以及Research， Engineering 相关的实习与全职机会。",
 
     email: "Whruiray@umich.edu",
 

@@ -8,7 +8,7 @@ export const featuredSystemZh = {
   title: "Alfred",
 
   subtitle:
-    "不是另一个 AI 聊天机器人，而是一位帮助你完成工作的 AI Chief of Staff——把邮件、日历和对话中的复杂信息整理成今天真正值得行动的事情。",
+    "不是另一个 AI 聊天机器人，而是一位帮助你完成工作的 AI Chief of Staff——把邮件、日历和对话中的复杂信息整理成今天真正重要的事情。",
 
   org: "个人产品",
 
@@ -54,5 +54,5 @@ export const featuredSystemZh = {
   ] as const satisfies readonly PipelineStage[],
 
   outcome:
-    "我想构建的不是一个回答问题的 AI，而是一个能够理解上下文、组织复杂信息，并帮助人们真正完成工作的智能系统。",
+    "我想构建的不是一个回答问题的 AI，而是一个能够理解和组织复杂信息，并转换成人们可以直接利用的智能系统。",
 } as const;

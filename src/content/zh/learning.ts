@@ -3,7 +3,7 @@ import type { LearningGroup } from "../learning";
 export const learningZh = {
   kicker: "成长",
   heading: "持续学习",
-  lede: "通过专业证书与大学课程，持续夯实把系统做扎实的实践基础。",
+  lede: "多年以来我通过专业证书与大学课程，持续夯实把系统做扎实的实践基础。",
   groups: [
     {
       id: "certificates",
