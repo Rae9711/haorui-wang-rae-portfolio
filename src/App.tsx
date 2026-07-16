@@ -28,12 +28,12 @@ function App() {
 
       <main id="top">
         <Hero />
+        <About />
         <Mission />
         <Projects />
         <FeaturedSystem />
         <ResearchTimeline />
         <Learning />
-        <About />
         <Contact />
       </main>
 

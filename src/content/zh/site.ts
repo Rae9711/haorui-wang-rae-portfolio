@@ -12,8 +12,8 @@ export const siteZh = {
 
   nav: [
     { label: "作品", href: "#work" },
-    { label: "成长路径", href: "#research" },
     { label: "关于", href: "#about" },
+    { label: "学习", href: "#learning" },
     { label: "联系", href: "#contact" },
   ],
 

@@ -11,93 +11,103 @@ export function Hero() {
       className="relative mx-auto flex min-h-[min(100vh,860px)] max-w-6xl flex-col justify-end px-6 pb-20 pt-28 md:px-10 md:pb-28 md:pt-36"
       aria-label="Introduction"
     >
-      <motion.p
-        className="mb-6 font-mono text-xs tracking-[0.16em] text-accent uppercase md:mb-8"
-        initial={reduce ? false : { opacity: 0, y: 12 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.65, ease }}
-      >
-        {site.hero.kicker}
-      </motion.p>
+      <div className="grid items-end gap-10 md:grid-cols-[minmax(0,1fr)_auto] md:gap-14 lg:gap-20">
+        <div className="min-w-0">
+          <motion.p
+            className="mb-6 font-mono text-xs tracking-[0.16em] text-accent uppercase md:mb-8"
+            initial={reduce ? false : { opacity: 0, y: 12 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.65, ease }}
+          >
+            {site.hero.kicker}
+          </motion.p>
 
-      <motion.div
-        className="flex items-center gap-3 md:gap-4"
-        initial={reduce ? false : { opacity: 0, y: 24 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.85, delay: 0.04, ease }}
-      >
-        <h1 className="min-w-0 whitespace-nowrap text-[clamp(1rem,4.4vw,3.35rem)] font-semibold leading-[1.05] tracking-[-0.04em] text-ink">
-          {site.nameFull}
-        </h1>
-        <img
-          src={site.portraitHref}
-          alt={site.nameFull}
-          width={64}
-          height={64}
-          className="h-11 w-11 shrink-0 rounded-full object-cover object-[center_20%] ring-1 ring-line md:h-14 md:w-14"
-        />
-      </motion.div>
+          <motion.h1
+            className="whitespace-nowrap text-[clamp(1rem,4.4vw,3.35rem)] font-semibold leading-[1.05] tracking-[-0.04em] text-ink"
+            initial={reduce ? false : { opacity: 0, y: 24 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.85, delay: 0.04, ease }}
+          >
+            {site.nameFull}
+          </motion.h1>
 
-      <motion.p
-        className="mt-6 max-w-xl text-lg leading-relaxed text-muted md:mt-8 md:text-xl"
-        initial={reduce ? false : { opacity: 0, y: 16 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.75, delay: 0.14, ease }}
-      >
-        {site.hero.lede}
-      </motion.p>
+          <motion.p
+            className="mt-6 max-w-xl text-lg leading-relaxed text-muted md:mt-8 md:text-xl"
+            initial={reduce ? false : { opacity: 0, y: 16 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.75, delay: 0.14, ease }}
+          >
+            {site.hero.lede}
+          </motion.p>
 
-      <motion.p
-        className="mt-6 font-mono text-xs tracking-wide text-faint md:text-sm"
-        initial={reduce ? false : { opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 0.7, delay: 0.34, ease }}
-      >
-        {site.hero.thesis}
-      </motion.p>
+          <motion.p
+            className="mt-6 font-mono text-xs tracking-wide text-faint md:text-sm"
+            initial={reduce ? false : { opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.7, delay: 0.34, ease }}
+          >
+            {site.hero.thesis}
+          </motion.p>
 
-      <motion.div
-        className="mt-10 flex flex-wrap items-center gap-4"
-        initial={reduce ? false : { opacity: 0, y: 12 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.7, delay: 0.42, ease }}
-      >
-        <a
-          href="#work"
-          className="inline-flex min-h-11 items-center bg-ink px-5 text-sm font-medium text-bg transition-opacity hover:opacity-85"
+          <motion.div
+            className="mt-10 flex flex-wrap items-center gap-4"
+            initial={reduce ? false : { opacity: 0, y: 12 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7, delay: 0.42, ease }}
+          >
+            <a
+              href="#work"
+              className="inline-flex min-h-11 items-center bg-ink px-5 text-sm font-medium text-bg transition-opacity hover:opacity-85"
+            >
+              {site.hero.ctaWork}
+            </a>
+            <a
+              href={site.resumeHref}
+              download
+              className="inline-flex min-h-11 items-center px-2 text-sm font-medium text-ink underline decoration-line underline-offset-4 transition-colors hover:decoration-accent"
+            >
+              {site.hero.ctaResume}
+            </a>
+            <a
+              href="#contact"
+              className="inline-flex min-h-11 items-center px-2 text-sm font-medium text-ink underline decoration-line underline-offset-4 transition-colors hover:decoration-accent"
+            >
+              {site.hero.ctaContact}
+            </a>
+            <a
+              href={site.links.github.href}
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex min-h-11 items-center px-2 text-sm text-muted transition-colors hover:text-ink"
+            >
+              {site.links.github.label}
+            </a>
+            <a
+              href={site.links.linkedin.href}
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex min-h-11 items-center px-2 text-sm text-muted transition-colors hover:text-ink"
+            >
+              {site.links.linkedin.label}
+            </a>
+          </motion.div>
+        </div>
+
+        <motion.div
+          className="justify-self-start md:justify-self-end"
+          initial={reduce ? false : { opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.85, delay: 0.12, ease }}
         >
-          {site.hero.ctaWork}
-        </a>
-        <a
-          href={site.resumeHref}
-          download
-          className="inline-flex min-h-11 items-center px-2 text-sm font-medium text-ink underline decoration-line underline-offset-4 transition-colors hover:decoration-accent"
-        >
-          {site.hero.ctaResume}
-        </a>
-        <a
-          href="#contact"
-          className="inline-flex min-h-11 items-center px-2 text-sm font-medium text-ink underline decoration-line underline-offset-4 transition-colors hover:decoration-accent"
-        >
-          {site.hero.ctaContact}
-        </a>
-        <a
-          href={site.links.github.href}
-          target="_blank"
-          rel="noreferrer"
-          className="inline-flex min-h-11 items-center px-2 text-sm text-muted transition-colors hover:text-ink"
-        >
-          {site.links.github.label}
-        </a>
-        <a
-          href={site.links.linkedin.href}
-          target="_blank"
-          rel="noreferrer"
-          className="inline-flex min-h-11 items-center px-2 text-sm text-muted transition-colors hover:text-ink"
-        >
-          {site.links.linkedin.label}
-        </a>
-      </motion.div>
+          <img
+            src={site.portraitHref}
+            alt={site.nameFull}
+            width={280}
+            height={360}
+            className="h-48 w-48 object-cover object-[center_18%] sm:h-56 sm:w-56 md:h-64 md:w-52 lg:h-72 lg:w-56"
+          />
+        </motion.div>
+      </div>
     </section>
   );
 }
