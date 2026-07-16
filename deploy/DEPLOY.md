@@ -1,4 +1,4 @@
-# Deploy — hae-portfolio
+# Deploy — haorui-wang-rae-portfolio
 
 Static Vite site for Haorui (Rae) Wang’s DS portfolio.
 
@@ -28,7 +28,7 @@ Caddy on the VPS serves `/var/www/hae-portfolio` for that host; HTTPS (Let’s E
 ## Local
 
 ```bash
-cd ~/Projects/hae-portfolio
+cd ~/Projects/haorui-wang-rae-portfolio
 npm install
 npm run dev      # http://localhost:5173
 npm run build    # → dist/

@@ -39,7 +39,7 @@ Do **not** edit React components just to change words — they only render conte
 ## Preview locally / 本地预览
 
 ```bash
-cd ~/Projects/hae-portfolio
+cd ~/Projects/haorui-wang-rae-portfolio
 npm install          # first time only
 npm run dev
 ```

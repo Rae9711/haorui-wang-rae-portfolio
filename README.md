@@ -1,4 +1,4 @@
-# hae-portfolio
+# haorui-wang-rae-portfolio
 
 Personal brand site for **Haorui (Rae) Wang** — *I build intelligent AI systems.*
 
@@ -19,7 +19,7 @@ Personal brand site for **Haorui (Rae) Wang** — *I build intelligent AI system
 ## Run locally
 
 ```bash
-cd ~/Projects/hae-portfolio
+cd ~/Projects/haorui-wang-rae-portfolio
 npm install
 npm run dev
 ```
