@@ -17,7 +17,7 @@ export const featuredSystemZh = {
   stages: [
     {
       id: "observe",
-      label: "理解上下文",
+      label: "读取信息",
       detail:
         "读取 Gmail、日历与历史对话，理解正在发生什么，而不是只回答眼前的问题。",
     },
@@ -29,19 +29,19 @@ export const featuredSystemZh = {
     },
     {
       id: "prioritize",
-      label: "排序今天",
+      label: "排序信息",
       detail:
         "结合时间、上下文与重要性，只保留今天真正值得处理的事情。",
     },
     {
       id: "prepare",
-      label: "准备行动",
+      label: "准备执行",
       detail:
         "生成回复草稿、会议准备和下一步建议，让执行前的信息准备一次完成。",
     },
     {
       id: "approve",
-      label: "人在回路",
+      label: "人工审批",
       detail:
         "所有真正影响外部世界的动作，都必须经过用户明确批准。",
     },

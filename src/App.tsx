@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import { About } from "./components/About";
 import { Contact } from "./components/Contact";
-import { FeaturedSystem } from "./components/FeaturedSystem";
 import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
@@ -31,7 +30,6 @@ function App() {
         <About />
         <Mission />
         <Projects />
-        <FeaturedSystem />
         <ResearchTimeline />
         <Learning />
         <Contact />
