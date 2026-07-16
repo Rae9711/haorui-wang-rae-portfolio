@@ -25,7 +25,7 @@ export const site = {
    * Resume PDF in /public — replace the file, keep the same filename,
    * OR change this path to match a new file.
    */
-  resumeHref: "/Haorui_Wang_Resume_DS.pdf",
+  resumeHref: "/Haorui_Wang_Resume_ML.pdf",
   resumeLabel: "Resume",
 
   /** Portrait shown beside the hero name */

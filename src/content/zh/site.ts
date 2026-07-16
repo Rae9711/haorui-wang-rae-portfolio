@@ -8,7 +8,7 @@ export const siteZh = {
   name: "王颢睿",
   nameFull: "王颢睿 · Haorui (Rae) Wang",
 
-  documentTitle: "王颢睿 · AI Builder",
+  documentTitle: "王颢睿 · Haorui (Rae) Wang",
 
   nav: [
     { label: "作品", href: "#work" },
@@ -17,13 +17,13 @@ export const siteZh = {
     { label: "联系", href: "#contact" },
   ],
 
-  resumeHref: "/Haorui_Wang_Resume_DS.pdf",
+  resumeHref: "/Haorui_Wang_Resume_ML.pdf",
   resumeLabel: "查看简历",
 
   portraitHref: "/portrait.jpg",
 
   hero: {
-    kicker: "AI Builder",
+    kicker: "AI 构建者",
 
     lede:
       "我希望AI 系统并不是代替人类思考，而是将复杂的信息变成可理解、可行动的决策。",

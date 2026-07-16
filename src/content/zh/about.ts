@@ -14,7 +14,7 @@ export const aboutZh = {
   aside: {
     label: "At a glance",
     items: [
-      "王颢睿）",
+      "王颢睿 Rae",
       "数据科学与统计学 · 密歇根大学 · 2027",
       "Forsyth County High School · 北卡罗来纳州 · 2023",
       "临床 AI · 医疗机器学习 · 商业决策系统",
