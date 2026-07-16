@@ -24,7 +24,7 @@ export const projectsZh: Project[] = [
     title: "Alfred",
     subtitle: "把对话变成承诺，把承诺变成行动。",
     attribution:
-      "四人团队共创；负责产品逻辑、工作流设计与 AI 辅助开发",
+      "四人团队共创；负责产品逻辑、工作流设计与 APP 开发",
     org: "独立产品",
     period: "2026 – 至今",
 

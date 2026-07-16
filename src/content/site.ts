@@ -37,7 +37,7 @@ export const site = {
     lede:
       "I design AI systems that don't just generate answers — they understand context, organize complexity, and help people make better decisions.",
     /** Systems thesis — secondary to who I am */
-    thesis: "AI products · Agentic systems · LLMs · Decision intelligence · Data Science & Statistics",
+    thesis: "Agentic systems · LLMs · Decision Intelligence · Data Science & Statistics",
     ctaWork: "See my work",
     ctaResume: "Resume",
     ctaContact: "Contact",

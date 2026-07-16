@@ -45,11 +45,11 @@ export function Mission() {
           </p>
           <h2
             id="focus-heading"
-            className="max-w-2xl text-[clamp(1.75rem,4vw,2.5rem)] font-semibold leading-[1.15] tracking-[-0.03em] text-ink"
+            className="text-[clamp(1.75rem,4vw,2.5rem)] font-semibold leading-[1.15] tracking-[-0.03em] text-ink"
           >
             {mission.statement}
           </h2>
-          <p className="mt-5 max-w-2xl text-base leading-relaxed text-muted md:text-lg">
+          <p className="mt-5 text-base leading-relaxed text-muted md:text-lg">
             {mission.supporting}
           </p>
         </FadeIn>
@@ -70,7 +70,7 @@ export function Mission() {
             >
               {featuredSystem.title}
             </h3>
-            <p className="mt-3 max-w-2xl text-base leading-relaxed text-muted md:text-lg">
+            <p className="mt-3 text-base leading-relaxed text-muted md:text-lg">
               {featuredSystem.subtitle}
             </p>
             <p className="mt-4 font-mono text-xs tracking-wide text-faint">
@@ -183,40 +183,12 @@ export function Mission() {
             </ol>
           </div>
 
-          <FadeIn delay={0.2} className="mt-12 max-w-2xl md:mt-14">
-            <p className="text-base leading-relaxed text-muted">
+          <FadeIn delay={0.2} className="mt-12 md:mt-14">
+            <p className="max-w-none text-base leading-relaxed text-muted md:text-lg">
               {featuredSystem.outcome}
             </p>
           </FadeIn>
         </div>
-
-        <FadeIn delay={0.12} className="mt-12 md:mt-14">
-          <div className="grid gap-10 border-t border-line pt-10 sm:grid-cols-2">
-            <div>
-              <p className="font-mono text-xs tracking-[0.14em] text-faint uppercase">
-                {mission.where.label}
-              </p>
-              <p className="mt-3 text-sm leading-relaxed text-ink md:text-base">
-                {mission.where.detail}
-              </p>
-            </div>
-            <div>
-              <p className="font-mono text-xs tracking-[0.14em] text-faint uppercase">
-                {mission.previously.label}
-              </p>
-              <ul className="mt-3 space-y-2">
-                {mission.previously.items.map((item) => (
-                  <li
-                    key={item}
-                    className="text-sm leading-relaxed text-ink md:text-base"
-                  >
-                    {item}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        </FadeIn>
       </div>
     </section>
   );

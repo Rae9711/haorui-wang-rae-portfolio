@@ -63,7 +63,7 @@ export function Projects() {
                     <dl className="mt-8 grid gap-5 sm:grid-cols-3 lg:grid-cols-1">
                       {project.metrics.map((m) => (
                         <div key={m.label}>
-                          <dt className="text-2xl font-semibold tracking-tight text-ink md:text-3xl">
+                          <dt className="whitespace-nowrap text-xl font-semibold tracking-tight text-ink md:text-2xl lg:text-[1.65rem]">
                             {m.value}
                           </dt>
                           <dd className="mt-1 text-sm text-muted">{m.label}</dd>
