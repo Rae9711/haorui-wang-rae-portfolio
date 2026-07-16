@@ -21,7 +21,7 @@ export function Hero() {
       </motion.p>
 
       <motion.h1
-        className="max-w-4xl text-[clamp(2.75rem,9vw,5.5rem)] font-semibold leading-[1.02] tracking-[-0.04em] text-ink"
+        className="whitespace-nowrap text-[clamp(1.15rem,5.2vw,4.25rem)] font-semibold leading-[1.05] tracking-[-0.04em] text-ink"
         initial={reduce ? false : { opacity: 0, y: 24 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.85, delay: 0.04, ease }}

@@ -1,6 +1,6 @@
 export const aboutZh = {
   kicker: "关于",
-  heading: "王颢睿",
+  heading: "王颢睿 · Haorui (Rae) Wang",
 
   paragraphs: [
     "我相信 AI 的价值不在于生成更多答案，而在于帮助人们做出更好的决策。我喜欢构建能够理解上下文、整理复杂信息，并在真实约束下采取行动的智能系统。",
