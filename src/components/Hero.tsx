@@ -1,9 +1,10 @@
 import { motion, useReducedMotion } from "framer-motion";
-import { site } from "../content";
+import { useContent } from "../content";
 import { ease } from "./motion";
 
 export function Hero() {
   const reduce = useReducedMotion();
+  const { site } = useContent();
 
   return (
     <section
@@ -16,7 +17,7 @@ export function Hero() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.65, ease }}
       >
-        Portfolio
+        {site.hero.kicker}
       </motion.p>
 
       <motion.h1

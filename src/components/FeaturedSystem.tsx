@@ -5,7 +5,7 @@ import {
   type Variants,
 } from "framer-motion";
 import { useRef } from "react";
-import { featuredSystem } from "../content";
+import { useContent } from "../content";
 import { ease, FadeIn } from "./motion";
 
 const stageVariants: Variants = {
@@ -29,6 +29,7 @@ export function FeaturedSystem() {
   const reduce = useReducedMotion();
   const ref = useRef<HTMLDivElement>(null);
   const inView = useInView(ref, { once: true, margin: "-15% 0px" });
+  const { featuredSystem } = useContent();
   const stages = featuredSystem.stages;
 
   return (

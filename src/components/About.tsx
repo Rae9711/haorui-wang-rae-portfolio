@@ -1,7 +1,9 @@
-import { about } from "../content";
+import { useContent } from "../content";
 import { FadeIn } from "./motion";
 
 export function About() {
+  const { about } = useContent();
+
   return (
     <section
       id="about"

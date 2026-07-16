@@ -1,7 +1,10 @@
-import { projects, projectsSection } from "../content";
+import { useContent } from "../content";
 import { FadeIn } from "./motion";
 
 export function Projects() {
+  const { projects, projectsSection } = useContent();
+  const labels = projectsSection.labels;
+
   return (
     <section
       id="work"
@@ -72,11 +75,11 @@ export function Projects() {
                   <div className="space-y-8">
                     {(
                       [
-                        ["Problem", project.problem],
-                        ["Approach", project.approach],
-                        ["Architecture", project.architecture],
-                        ["Impact", project.impact],
-                        ["Lessons", project.lessons],
+                        [labels.problem, project.problem],
+                        [labels.approach, project.approach],
+                        [labels.architecture, project.architecture],
+                        [labels.impact, project.impact],
+                        [labels.lessons, project.lessons],
                       ] as const
                     ).map(([label, body]) => (
                       <div key={label}>
@@ -91,7 +94,7 @@ export function Projects() {
 
                     <div>
                       <h4 className="font-mono text-xs tracking-[0.14em] text-faint uppercase">
-                        Stack
+                        {labels.stack}
                       </h4>
                       <ul className="mt-3 flex flex-wrap gap-x-3 gap-y-2">
                         {project.stack.map((tech) => (
@@ -112,7 +115,7 @@ export function Projects() {
                         rel="noreferrer"
                         className="inline-flex text-sm font-medium text-ink underline decoration-accent/40 underline-offset-4 hover:decoration-accent"
                       >
-                        View repository
+                        {labels.viewRepo}
                       </a>
                     ) : null}
 

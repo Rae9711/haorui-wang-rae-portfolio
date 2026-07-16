@@ -28,6 +28,7 @@ export const site = {
   resumeLabel: "Resume",
 
   hero: {
+    kicker: "Portfolio",
     /** Short human supporting sentence */
     lede:
       "I design AI systems that don't just generate answers — they understand context, organize complexity, and help people make better decisions.",
@@ -65,6 +66,7 @@ export const site = {
   a11y: {
     skipToContent: "Skip to content",
     primaryNav: "Primary navigation",
+    langSwitch: "Switch language",
   },
 } as const;
 

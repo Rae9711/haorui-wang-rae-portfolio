@@ -1,6 +1,8 @@
-import { site } from "../content";
+import { useContent } from "../content";
 
 export function Footer() {
+  const { site } = useContent();
+
   return (
     <footer className="border-t border-line">
       <div className="mx-auto flex max-w-6xl flex-wrap items-center gap-3 px-6 py-8 text-sm text-faint md:px-10">

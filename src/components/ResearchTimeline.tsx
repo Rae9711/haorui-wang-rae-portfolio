@@ -1,7 +1,9 @@
-import { research } from "../content";
+import { useContent } from "../content";
 import { FadeIn } from "./motion";
 
 export function ResearchTimeline() {
+  const { research } = useContent();
+
   return (
     <section
       id="research"

@@ -1,7 +1,9 @@
-import { site } from "../content";
+import { useContent } from "../content";
 import { FadeIn } from "./motion";
 
 export function Contact() {
+  const { site } = useContent();
+
   return (
     <section
       id="contact"
@@ -39,7 +41,7 @@ export function Contact() {
                 download
                 className="font-medium text-ink underline decoration-line underline-offset-4 hover:decoration-accent"
               >
-                Resume
+                {site.resumeLabel}
               </a>
             </li>
             <li>

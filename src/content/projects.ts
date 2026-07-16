@@ -36,6 +36,15 @@ export const projectsSection = {
   kicker: "Work",
   heading: "Projects I've built",
   lede: "Selected systems from product, research, and industry — each one I designed, implemented, or owned end to end.",
+  labels: {
+    problem: "Problem",
+    approach: "Approach",
+    architecture: "Architecture",
+    impact: "Impact",
+    lessons: "Lessons",
+    stack: "Stack",
+    viewRepo: "View repository",
+  },
 } as const;
 
 export const projects: Project[] = [

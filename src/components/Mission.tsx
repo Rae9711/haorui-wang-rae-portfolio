@@ -1,7 +1,9 @@
-import { mission } from "../content";
+import { useContent } from "../content";
 import { FadeIn } from "./motion";
 
 export function Mission() {
+  const { mission } = useContent();
+
   return (
     <section
       id="focus"

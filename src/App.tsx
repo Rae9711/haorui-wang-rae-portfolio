@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { About } from "./components/About";
 import { Contact } from "./components/Contact";
 import { FeaturedSystem } from "./components/FeaturedSystem";
@@ -7,9 +8,15 @@ import { Hero } from "./components/Hero";
 import { Mission } from "./components/Mission";
 import { Projects } from "./components/Projects";
 import { ResearchTimeline } from "./components/ResearchTimeline";
-import { site } from "./content";
+import { useContent } from "./content";
 
 function App() {
+  const { site } = useContent();
+
+  useEffect(() => {
+    document.title = site.documentTitle;
+  }, [site.documentTitle]);
+
   return (
     <>
       <a className="skip-link" href="#work">
